@@ -20,5 +20,6 @@ In this project, I utilized Ansible, a powerful IT automation tool, to manage an
 - Set up SSH on the Cisco 1900 router and configured its interface with the IP address to enable communication with the Ansible controller.
 
 ### Connectivity Verification:
-Conducted a series of pings to the router to verify network connectivity and performance using Ansible's ping module.
-Command executed
+- Conducted a series of pings to the router to verify network connectivity and performance using Ansible's ping module.
+- Command executed
+  - ansible ciscoRouters -m ping
